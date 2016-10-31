@@ -1,0 +1,31 @@
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+#header-nav {
+    border: 0;
+    border-radius: 0;
+    background-color: #F2F5A9;
+}
+#collapsable-nav {
+    background-color: #F5DA81;
+}
+.navbar-header {
+    height: 100px;
+}
+.navbar-toggle {
+    top: 20px;
+}
+#nav-list li {
+    text-align: center;
+}
+#text {
+    height: 1000px;
+    margin: 10px;
+    background-color: #E3F6CE;
+}
+@media (min-width:768px){
+    #collapsable-nav {
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
